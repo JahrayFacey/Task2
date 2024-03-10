@@ -1,0 +1,7 @@
+str_manip = str(input("Please type a sentence. "))
+print(len(str_manip))
+last_word = str(str_manip[-1])
+print(last_word)
+print(str(str_manip.replace(str_manip[-1], "@")))
+print(str_manip[-3::])
+print(str_manip[0:3] + str_manip[-2::])
